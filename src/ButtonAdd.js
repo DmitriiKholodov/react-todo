@@ -8,7 +8,7 @@ export default class ButtonAdd extends Component {
 
     render() {
         return (
-            <button>add task</button>
+            <button onClick={this.props.addTask}>add task</button>
         );
     }
 }
